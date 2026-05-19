@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Static deployment - no build needed'",
-  "outputDirectory": null,
-  "public": true,
-  "cleanUrls": true
+  "buildCommand": "true",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
 }
