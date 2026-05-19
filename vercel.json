@@ -1,12 +1,5 @@
 {
   "version": 2,
   "buildCommand": "echo 'Static deployment'",
-  "outputDirectory": "public",
-  "functions": {
-    "api/generate.js": {
-      "runtime": "nodejs24.x",
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  }
+  "outputDirectory": "public"
 }
