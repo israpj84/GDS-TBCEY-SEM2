@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
