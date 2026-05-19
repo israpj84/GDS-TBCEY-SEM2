@@ -6,5 +6,11 @@
   "private": true,
   "engines": {
     "node": "24.x"
+  },
+  "dependencies": {
+    "next": "latest"
+  },
+  "scripts": {
+    "build": "echo 'Static deployment, no Next.js build needed'"
   }
 }
